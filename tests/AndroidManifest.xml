@@ -15,10 +15,8 @@
 -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    package="com.android.launcher3.tests">
-
-    <uses-sdk android:targetSdkVersion="25" android:minSdkVersion="21"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-sdk android:targetSdkVersion="33" android:minSdkVersion="21"
               tools:overrideLibrary="android.support.test.uiautomator.v18"/>
 
     <application android:debuggable="true">
